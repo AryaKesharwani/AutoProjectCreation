@@ -2,9 +2,11 @@ import os
 import sys
 from github import Github
 
+#Remember to create this variables, learn how to in the README
 username = os.environ.get("GIT_USER")
 password = os.environ.get("GIT_PASS")
 
+#Enter where you want to save your projects, use "/" instead of "\"
 PATH = "G:/Proyectos"
 
 def new_folder_repo():
